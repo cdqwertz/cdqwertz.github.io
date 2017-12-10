@@ -1,0 +1,74 @@
+body {
+	background: #252525;
+	color: #ddd;
+}
+
+.name {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 20px;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 410px;
+	max-width: 90%;
+
+	color: #267fbe;
+	text-align: center;
+	font-size: 3rem;
+	font-family: monospace;
+
+	image-rendering: optimizeSpeed;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+.text {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 50%;
+
+	padding: 10px;
+
+	font-family: monospace;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width : 800px) {
+	.text {
+		width: 100%;
+	}
+}
+
+.text ul {
+	list-style-type: decimal-leading-zero;
+}
+
+.text > ul > li {
+	padding-bottom: 10px;
+}
+
+.text > ul > li li {
+	padding-bottom: 3px;
+}
+
+.text a {
+	color: #267fbe;
+}
+
+.text a:visited {
+	color: #267fbe;
+}
+
+.footer {
+	text-align: center;
+	color: #888;
+}
