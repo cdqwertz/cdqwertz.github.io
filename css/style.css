@@ -26,6 +26,30 @@ body {
 	image-rendering: pixelated;
 }
 
+.error {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 20px;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 170px;
+	max-width: 90%;
+
+	color: #267fbe;
+	text-align: center;
+	font-size: 3rem;
+	font-family: monospace;
+
+	image-rendering: optimizeSpeed;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+
 .text {
 	position: absolute;
 	top: 150px;
